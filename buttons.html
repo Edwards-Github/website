@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <a href="index.html">
+            <!-- button will adjust to font size increase -->
+            <!-- color adjusts text color -->
+            <button style="font-size:25px; 
+            background-color: grey; 
+            color:lightblue; 
+            border-radius:25px;"> <!-- border-radius curves the border-->
+            click me
+            </button>
+        </a>
+
+        <!-- This part contains JavaScript -->
+        <button onclick = "doSomething()" style="font-size:25px; 
+        background-color: grey; 
+        color:lightblue; 
+        border-radius:25px;"> <!-- border-radius curves the border-->
+        click me
+        </button>
+        
+        <p id="greeting">Hello</p>
+
+        <!-- <script> is needed for JavaScript -->
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye"
+            }
+        </script>
+        <!-- function doSomething changes "Hello" to "Goodbye" -->
+    </body>
+</html>
