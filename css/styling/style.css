@@ -1,0 +1,12 @@
+/*This is an external style sheet you can style 
+different parts of the html through their tags*/
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    color:white;
+}
