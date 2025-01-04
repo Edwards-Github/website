@@ -1,0 +1,13 @@
+/* verdana is the main font if it isn't available aria will be chosen */
+/* can find fonts at https://fonts.google.com/ */
+h1{
+    font-family: "Roboto Slab", verdana, arial;
+}
+/* if font name has a space you can use quotes " " */
+p{
+    font-family: "Open Sans", "lucida console", "courier new";
+    font-size: 16px;
+    /*font-size: 1em; 1 em = original size, 1.5 = 150% original size */
+    font-weight: bold;
+    font-style: italic;
+}

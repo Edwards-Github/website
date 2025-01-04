@@ -1,0 +1,32 @@
+/* This is an external style sheet you can style 
+different parts of the html through their tags */
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+/* Select an item by id use # */
+/*
+#p1{
+    color: red;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color: green;
+}
+*/
+
+/* Select an item by class use . */
+.odd{
+    color: red;
+}
+.even{
+    color: blue;
+}
