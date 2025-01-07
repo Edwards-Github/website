@@ -1,0 +1,22 @@
+div{
+    background-color: hsl(0, 100%, 75%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /* visibility: hidden (the element would still be there taking up space, but you can't see it) */
+    visibility: hidden;
+}
+span{
+    background-color: hsl(204, 100%, 75%);
+    /* changing width and height won't change anything because
+       span only takes what is needed */
+    width: 100px;
+    height: 100px;
+    /* once you display span as a block you can THEN specify
+       the height and the width 
+       display: block (specifies a whole block)
+       display: inline (takes what is needed) 
+       display: inline-block (won't take entire width of viewport)
+       display: none (will hide element as if it no longer exists) */
+    display: inline-block;
+}

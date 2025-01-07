@@ -1,0 +1,16 @@
+body{
+    border: 3px solid;
+    /* anything that's floating will stay in the container (pikachu and pokeball) */
+    display: flow-root;
+}
+
+#img1{
+    /* float left means image floats left so text wraps from right side*/
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}
