@@ -1,0 +1,26 @@
+#container{
+    border: 2px solid;
+}
+/*
+container (space) p 
+#container p{  container (space) p 
+    background-color: hsl(60, 100%, 70%);
+}*/
+/*
+#container > p{ 
+     only #1 and #2 are highlighted because they are children 
+     #3 you can think of as grandchildren 
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+/*
+4 and 5 are both siblings to our container both 
+are considered children to the body of our document;
+therefore, they are siblings.
+#container ~ p{
+    background-color: hsl(60, 100%, 70%);
+}
+*/
+#container + p{
+    background-color: hsl(60, 100%, 70%);
+}

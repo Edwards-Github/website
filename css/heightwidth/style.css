@@ -1,0 +1,27 @@
+* {
+    /* the asterisk * means all elements */
+    /* when we're calculating the height or width we're allocating disregard any padding or borders */
+    box-sizing: border-box; /* now the two boxes are side by side */
+}
+.container{
+    background-color: hsl(0, 0%, 24%);
+    /* vh = viewport height which means height of your browser.*/
+    /* 100vh means 100% of your browser height */
+    height: 100vh;
+}
+.box{
+    /* border: 2px solid; if you uncomment this the two boxes won't be side to side because there's not enough room */
+    /* height and width properties can take auto, px (100px), or percentages % (50%) */
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    /* There's also height version of this */
+    /* max-width: 25%; caps out the width at 25% even if width property is 50% */
+    /* min-width: 75%; each of the boxes should at least be 75% */
+    min-height: 50%;
+}

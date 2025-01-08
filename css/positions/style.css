@@ -1,0 +1,58 @@
+/*#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: relative;
+    top: 100px;  pushed element from the top 100px from where it normally is 
+    left: 100px;  pushed element to the right 100px from where it normally is 
+}*/
+
+/*#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}*/
+
+/*#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}*/
+/*#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 63%);
+    position: absolute; red box is positioned relative to box1 
+    top: 50px;
+    left: 50px;
+}*/
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    position: sticky; /* blue square stuck in same place till we scroll past it */
+    top: 100px;
+    left: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 63%);
+    position: absolute; /* red box is positioned relative to box1 */
+    top: 50px;
+    left: 50px;
+}

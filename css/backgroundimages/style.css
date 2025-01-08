@@ -1,0 +1,11 @@
+body{
+    /* background-image propety is what puts an image in the background
+    url(file location) is image path relative to this directory 
+    if background-image is too small the image will repeat */
+    background-image: url(../../images/GenshinImpact1.jpg);
+    /* background-repeat: no-repeat; makes it so the image wouldn't repeat to fill space*/
+    background-repeat: no-repeat;
+    background-position: center; /* centers background */
+    background-attachment: fixed; /* background image scrolls with rest of the page or is it fixed*/
+    background-size: cover; /* now background image will cover the whole browser */
+}

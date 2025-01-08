@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: hsl(60, 100%, 77%);
+}
+p::selection{
+    color:rgb(89, 255, 71);
+    background-color: hsl(0, 0%, 21%);
+}
+/* before any list items add a checkmark */
+#fruit li::before{
+    content: "✔";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+/* replace the default bullet points in li (list items) to a checkmark instead */
+#fruit li::marker{
+    content: "✔";
+    color: hsl(120, 100%, 64%);
+    font-size: 1.2em;
+}
