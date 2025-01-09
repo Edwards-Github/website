@@ -7,3 +7,12 @@
     padding: 8px 15px;
     display: inline-block; /* can adjust width and height of pagination */
 }
+.pagination a.active{
+    background-color: hsl(120, 100%, 70%);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){ /* hover over anything not active */
+    background-color: hsl(0, 0%, 77%);
+    border-radius: 5px;
+}

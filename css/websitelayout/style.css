@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box; /* when we calculate the width take account of padding */
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+/* The total width should equal 100%*/
+/* when we calculate the width we don't take account of any padding */
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both; /* clears float */
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+/* For mobile devices we'll switch up the attributes */
+@media screen and (max-width:600px){
+    /* if width of our screen / window is 600px or below we can change some css properties */
+    aside, section, article{
+        width: 100%;
+    }
+}

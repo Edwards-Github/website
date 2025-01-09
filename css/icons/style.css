@@ -1,0 +1,32 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none; /* removes underline under icons for links */
+    margin-right: 20px;
+}
+/* since we can't include spaces for the class you can replace with dot "." */
+.fa-solid.fa-house.fa-5x{
+    color: hsl(0, 0%, 66%);
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(0, 0%, 76%);
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: hsl(188, 100%, 50%);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(188, 100%, 60%);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 100%, 50%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 100%, 60%);
+}
+.fa-brands.fa-tiktok.fa-5x{
+    color: hsl(0, 0, 10%)
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color: hsl(0, 0, 30%)
+}
