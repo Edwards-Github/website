@@ -1,7 +1,15 @@
 .container{
     display: flex; /* default direction for flex is row */
+    border: 10px solid black;
+    height: 90vh; /* 90% of the height of browser */
     /* flex-direction: row-reverse; row, row-reverse, column, column-reverse */
-    justify-content: flex-start; /* x-axis */
+    /* justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly */
+    /* justify-content: space-evenly;  sets alignment on x-axis */
+    /* align-items: flex-end (puts elements at bottom of container), center, baseline (text is aligned) */
+    /* flex-wrap: wrap; flex-wrap: no-wrap (default), wrap, wrap-reverse if we run out of room it will move to the next line */
+    /* align-content: flex-start; align-content: flex-start with flex-wrap: wrap (space between first and second row is now gone) */
+    /* column-gap: 1em;
+    row-gap: 1em; */
 }
 .box{
     width: 150px;
@@ -12,6 +20,8 @@
 }
 #box1{
     background-color: hsl(0, 100%, 70%);
+    /* align-self: start; aligns only this element */
+    /* order: 1; reverses order setting it to -1 puts it in ascending order */
 }
 #box2{
     background-color: hsl(52, 100%, 70%);
