@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 12%);
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 100%, 62%);
+    font-size: 13em;
+    text-align: center;
+    /* Properties needed for animation: */
+    animation-name: glow;  /* animation-name: (function name) */
+    animation-duration: 2s;
+    /* animation-iteration-count: 2; can set it to infinite */
+    /* animation-direction: normal; reverse, alternate, alternate-reverse */
+    /* animation-play-state: running; pause */
+    /* animation-timing-function: ease-in-out; linear (same speed), steps(number) */
+    /* opacity: 0; used in combination with fade in function */
+}
+/* keyframes is needed for animation. slideLeft is name of function */
+@keyframes slideLeft{
+    /* to, from, and % */
+    from{transform: translateX(100px)}
+}
+@keyframes slideRight{
+    /* to, from, and % */
+    to{transform: translateX(100px)}
+}
+@keyframes slideUp{
+    /* to, from, and % */
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    /* to, from, and % */
+    to{transform: translateY(300%)}
+}
+@keyframes rotate{
+    /* to, from, and % */
+    /* 100%{transform: rotateY(360deg)} */
+    50%{transform: rotateZ(360deg)} /* rotates halfway then rotates back */
+}
+@keyframes grow{
+    /* scale(x, y) */
+    50%{transform: scale(2, 2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}
+@keyframes fadeIn{
+    100%{opacity: 1}
+}
+@keyframes colorChange{
+    0%{background-color: hsl(0, 100%, 62%)}
+    20%{background-color: hsl(35, 100%, 62%)}
+    40%{background-color: hsl(63, 100%, 62%)}
+    60%{background-color: hsl(103, 100%, 62%)}
+    80%{background-color: hsl(201, 100%, 62%)}
+    100%{background-color: hsl(268, 100%, 62%)}
+}
+@keyframes glow{
+    /* horizontal offset, vertical offset, blur radius, color*/
+    50%{box-shadow: 0px 0px 50px hsl(60, 100%, 64%)}
+}
